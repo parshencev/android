@@ -1,0 +1,245 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans|Open+Sans:600);
+body{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+.container{
+	width: 1000px;
+	border-bottom: 3px solid grey;
+	margin: 0 auto;
+	height: 1238px;
+}
+#pic{
+	position: absolute;
+	width: 1128px;
+	top: -10px;
+	width: 100%;
+	text-align: center;
+}
+#logo{
+	position: relative;
+	padding: 20px 0 10px 0;
+	left: 385px;
+}
+.informBlock{
+	position: relative;
+	left: 330px;
+	width: 754px;
+	top: 150px;
+}
+.informBlock ul{
+	padding: 0;
+	font-size: 0;
+}
+.informBlock li{
+	display: inline-block;
+	width: 670px;
+	height: 667px;
+	border: 1px solid #dcdcdc;
+	border-radius: 10px;
+	box-shadow: 0 3px 0 0 #dcdcdc;
+	list-style: none;
+	margin-top: 20px;
+	overflow: hidden;
+	background: rgba(255, 255, 255, 0.81);
+	font-size: 14px;
+	font-weight: bold;
+	text-align: left;
+}
+.informBlock li:nth-child(2n){
+	margin-left:20px; 
+}
+.informBlock li img{
+	margin: 20px;
+}
+.name{
+	position: relative;
+	width: 400px;
+	display: block;
+	left: 20px;
+	top: -115px;
+	font-size: 13px;
+	font-family: 'Myriad Pro';
+	font-weight: 100;
+	line-height: 23px;
+}
+.informBlock li a{
+	position: relative;
+	font-size: 30px;
+	text-decoration: none;
+	font-weight: bold;
+	top: 30px;
+	left: 94px;
+	color: #0d76b9;
+	font-family: 'PT Sans', sans-serif;
+	letter-spacing: -2px;
+}
+.informBlock li a:hover{
+	border-bottom: 1px solid;
+	cursor: pointer;
+}
+.angle{
+	position: relative;
+	margin: 0 20px -1px -50px;
+	z-index: 2;
+}
+.angle:hover{
+	cursor: pointer;
+}
+.Block{
+	position: relative;
+	border: 1px solid #dcdcdc;
+	box-shadow: 0 3px 0 0 #dcdcdc;
+	border-radius: 10px;
+}
+#list{
+	width: 294px;
+	height: 500px;
+	top: -517px;
+	background: rgba(255, 255, 255, 0.81);
+}
+#list ul{
+	list-style: none;
+	font-size: 0px;
+	color: #0d76b9;
+	margin: 10px;
+	font-weight: bold;
+	font-family: 'PT Sans', sans-serif;
+}
+#list img{
+	width: 33px;
+	height: 33px;
+}
+#list li span{
+	position: relative;
+	top: -14px;
+	font-size: 16px;
+}
+#list li:hover span{
+	border-bottom: 1px solid;
+	cursor: pointer;
+}
+#search{
+	width: 294px;
+	top: -496px;
+	height: 50px;
+}
+#text{
+	background: none;
+	border: none;
+	outline: none;
+	box-shadow: 0 3px 0 0 #b6b6b6;
+	color: #b6b6b6;
+	padding: 5px;
+	margin: 10px;
+}
+#but{
+	background: #009cff;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+	padding: 5px 10px;
+	border-bottom: 3px solid #0d76b9;
+	color: #FFF;
+	font-weight: bold;
+	transition:background .3s linear;
+}
+#but:hover{
+	cursor: pointer;
+	background: #4AB7FC;
+}
+.info{
+	list-style: none;
+	width: 700px;
+	top: -515px;
+	left: 260px;
+	position: relative;
+	font-size: 0px;
+	font-family: 'Open Sans', sans-serif;
+}
+.info li{
+	font-size: 12px;
+	padding-left: 25px;
+	border-left: 3px solid #FFF;
+	margin-bottom: 20px;
+}
+.info li:nth-child(2){
+	border-left: 3px solid #009cff;
+	font-size: 14px;
+}
+.footer{
+	margin: 0 auto;
+	width: 1000px;
+}
+.footer ul{
+	list-style: none;
+	font-size: 0;
+}
+.footer ul li{
+	position: relative;
+	display: inline-block;
+	font-size: 13px;
+	padding: 20px 0 30px 0;
+	font-family: 'Open Sans', sans-serif;
+}
+.footer ul li:first-child{
+	left: -40px;
+}
+.footer ul li:last-child{
+	left: 275px;
+	font-weight: bold;
+	color: #0d76b9;
+}
+.line{
+	position: relative;
+	width: 300px;
+	height: 20px;
+	top: 21px;
+	box-shadow: 0 -21px 20px 0 rgba(250, 250, 250, 1);
+	display: inline-block;
+	margin: 0 25px 0 -340px;
+}
+.button{
+	position: relative;
+	background: #009cff;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+	padding: 8px 15px;
+	border-bottom: 3px solid #0d76b9;
+	color: #FFF;
+	font-weight: bold;
+	transition: background .3s linear;
+}
+.button:hover {
+	cursor: pointer;
+	background: #4AB7FC;
+}
+#but1{
+	left: 400px;
+	top: 27px;
+}
+#but2{
+	top: -570px;
+	left: 20px;
+}
+.sizemb{
+	position: relative;
+	font-family: 'Myriad Pro';
+	font-weight: 100;
+	width: 560px;
+	top: 25px;
+	left: 93px;
+	text-align: left;
+	color: #ABABAB;
+	border-bottom: 1px solid #dcdcdc;
+}
+.screen{
+	position: relative;
+	display: block;
+	top: -541px;
+	left: 431px;
+}
